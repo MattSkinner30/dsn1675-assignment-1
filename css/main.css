@@ -1,0 +1,8 @@
+html {
+	box-sizing: border-box;
+}
+
+.nav-li li{
+	display: inline-block;
+	list-style-type: none;
+}
