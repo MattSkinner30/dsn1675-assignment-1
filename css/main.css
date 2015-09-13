@@ -2,18 +2,53 @@ html {
 	box-sizing: border-box;
 }
 
-nav li{
-	display: inline-block;
+body {
+	margin: 0;
+	background-color: #B7AcA6;
+}
+
+nav {
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+
+nav li {
 	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+nav li a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	background-color: #707279;
+	margin: 0;
+	width: 100%;
+	padding: 1em 0;
+	margin: 0;
+	display: inline-block;
+	border: solid 1px black;
+	font-size: 0.75rem;
 }
 
 h1 {
-	text-align: center
+	text-align: center;
+	color: #485268;
 }
 
 h2 {
 	text-align: center;
 	margin-bottom: 0;
+	color: #485268;
+}
+
+h3 {
+	color: #485268;
 }
 .banner p {
 	text-align: center;
@@ -22,8 +57,9 @@ h2 {
 
 a {
 	text-decoration: none;
-
+	color: black;
 }
+
 li {
 	list-style-type: none;
 }
