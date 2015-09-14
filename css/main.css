@@ -1,7 +1,7 @@
 /** 
-Light grey #B7AcA6;
-background-color: #707279;
-color: #485268;
+Dark Blue #0d4c53
+light blue: #a0b7c5
+Light Grey #cdd1d0
 **/
 
 html {
@@ -13,7 +13,7 @@ html {
 
 body {
 	margin: 0;
-	background-color: #B7AcA6;
+	background-color: #a0b7c5;
 }
 
 nav {
@@ -35,16 +35,16 @@ nav ol {
 	margin: 0;
 }
 nav li a {
-	color: black;
+	color: #0d4c53;
 	text-align: center;
 	text-decoration: none;
-	background-color: #B7AcA6;
+	background-color: #a0b7c5;
 	margin: 0;
 	width: 100%;
 	padding: 0.5em 0;
 	margin: 0;
 	display: inline-block;
-	border: solid 1px black;
+	border: solid 1px #0d4c53;
 	font-size: 0.75rem;
 }
 
@@ -54,9 +54,9 @@ p {
 
 h1 {
 	text-align: center;
-	color: black;
+	color: #0d4c53;
 	font-size: 3rem;
-	background-color: #B7AcA6;
+	background-color: #a0b7c5;
 	margin: 0;
 	padding: 10px 0;
 }
@@ -82,20 +82,21 @@ h2 {
 	width: 100%;
 	padding: 1em 0;
 	margin: 0;
-	margin-bottom: -1%;
+	bottom: 75%;
 	z-index: 4;
 	position: absolute;
 }
 
 .banner-p {
 	color: black;
-	background-image: linear-gradient(to top, white, transparent);
+	background-image: linear-gradient(to bottom, white, transparent);
 	text-align: center;
 	width: 100%;
-	padding-top: 3.5em;
-	margin: 0;
+	padding-bottom: 3em;
+	padding-top: 2em;
+	margin-top: 1em;
 	position: absolute;
-	bottom: 0;
+	top: -16px;
 	z-index: 3;
 }
 
