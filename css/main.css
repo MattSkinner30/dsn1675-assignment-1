@@ -1,6 +1,15 @@
+/** 
+Light grey #B7AcA6;
+background-color: #707279;
+color: #485268;
+**/
+
 html {
 	box-sizing: border-box;
 }
+*, *::before, *::after {
+ 	box-sizing: inherit;
+ }
 
 body {
 	margin: 0;
@@ -22,6 +31,9 @@ nav li {
 	text-align: center;
 }
 
+nav ol {
+	margin: 0;
+}
 nav li a {
 	color: black;
 	text-align: center;
@@ -29,31 +41,66 @@ nav li a {
 	background-color: #707279;
 	margin: 0;
 	width: 100%;
-	padding: 1em 0;
+	padding: 0.5em 0;
 	margin: 0;
 	display: inline-block;
 	border: solid 1px black;
 	font-size: 0.75rem;
 }
 
+p {
+	padding: 0 1em;
+}
+
 h1 {
 	text-align: center;
-	color: #485268;
+	color: black;
+	font-size: 3rem;
+	background-color: #707279;
+	margin: 0;
+	padding: 10px 0;
 }
 
 h2 {
 	text-align: center;
 	margin-bottom: 0;
-	color: #485268;
 }
 
-h3 {
-	color: #485268;
+.banner-div {
+	position: relative;
+	background-image: url("../images/panorama.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-bottom: 36%;
+	margin-top: 28px;
 }
-.banner p {
+
+.banner-div h2 {
+	color: black;
 	text-align: center;
+	bottom: 0%;
+	width: 100%;
+	padding: 1em 0;
 	margin: 0;
+	margin-bottom: -1%;
+	z-index: 4;
+	position: absolute;
 }
+
+.banner-p {
+	color: black;
+	background-image: linear-gradient(to top, white, transparent);
+	text-align: center;
+	width: 100%;
+	padding-top: 3.5em;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	z-index: 3;
+}
+
+
+
 
 a {
 	text-decoration: none;
@@ -74,3 +121,39 @@ img {
 	left: 5%;
 	padding-top: 1em;
 }
+
+.dt-2 {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
