@@ -176,7 +176,6 @@ dd {
 .tickets-button-k {
 	background-color: grey;
 	border: 1px solid black;
-
 	padding: 0.5em 2em;
 	position: absolute;
 	left: 52.5%;
@@ -185,12 +184,39 @@ dd {
 }
 
 .bam {
-	margin: 4em 0 0 0;
+	margin: 3.5em 0 0 2%;
+}
+ .join {
+ 	margin-top: 0;
+ }
+
+.now-playing {
+	margin-top: 3em;
 }
 
+.nowplaying-fig {
+	text-align: center;
+	position: relative;
+}
 
+.sst {
+	border: 1px solid black;
+	background-color: grey;
+	text-align: center;
+	padding: 0.25em 0.5em;
+	width: 30%;
+	position: absolute;
+	left: 35%;
 
+}
 
+.nowplaying-banner {
+		background-image: url("../images/atlantisz.jpg");
+		background-repeat: no-repeat;
+		width: 100%;
+		background-size: 100%;
+
+}
 
 
 
