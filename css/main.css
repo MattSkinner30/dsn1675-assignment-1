@@ -8,6 +8,7 @@ font-family: 'Old Standard TT', serif;
 html {
 	box-sizing: border-box;
 }
+
 *, *::before, *::after {
  	box-sizing: inherit;
  }
@@ -54,8 +55,7 @@ p {
 h1 {
 	text-align: center;
 	font-size: 3rem;
-	font-family: 'Old Standard TT', serif;
-	background-color: #0d4c53;
+font-family: 'Open Sans', sans-serif;	background-color: #0d4c53;
 	margin: 0;
 	padding: 10px 0 3px 0;
 }
@@ -63,13 +63,11 @@ h1 {
 main h2 {
 	text-align: center;
 	margin: 1em 0 -0.5em 0;
-	font-family: 'Old Standard TT', serif;
-
+font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
-	font-family: 'Old Standard TT', serif;
-	font-weight: 700;
+font-family: 'Open Sans', sans-serif;	font-weight: 700;
 	margin-left: 2%;
 }
 
@@ -149,7 +147,6 @@ dd {
 .learn {
 	border: 1px solid black;
 	background-color: grey;
-
 	text-align: center;
 	padding: 0.25em 1.5em;
 	width: 50%;
@@ -165,9 +162,8 @@ dd {
 .tickets-button-a {
 	background-color: grey;
 	border: 1px solid black;
-
 	padding: 0.5em 2em;
-	position:absolute;
+	position: absolute;
 	left: 20%;
 	width: 27.5%;
 	top: 50px;
@@ -197,9 +193,11 @@ dd {
 .nowplaying-fig {
 	text-align: center;
 	position: relative;
+	margin-top: 1em;
+	padding-top: 1em;
 }
 
-.sst {
+.sst-button {
 	border: 1px solid black;
 	background-color: grey;
 	text-align: center;
@@ -207,6 +205,7 @@ dd {
 	width: 30%;
 	position: absolute;
 	left: 35%;
+	margin-top: 12em;
 
 }
 
@@ -215,23 +214,51 @@ dd {
 		background-repeat: no-repeat;
 		width: 100%;
 		background-size: 100%;
-
 }
 
+.nowplaying-fig h3 {
+	margin:0;
+	background-image: linear-gradient(to bottom, white, transparent);
+	margin-top: -0.89em;
+	padding: 1em 0 2em 0;
+}
 
+.nowplaying-fig p {
+	margin-top: -2.5em;
+}
 
+.mickey {
+	margin-top: 12em;
+}
 
+.thisweek p {
+	margin: 0;
+	padding: 0 0 0 2%;
+}
 
+.thisweek h3 {
+	margin-bottom: 0.25em;
+}
 
+.moa {
+	padding-top: 1em;
+}
+footer {
+	background-color: lightgrey;
+}
 
+footer address, footer a, footer p{
+	padding-left: 2%;
+	margin: 0;
+}
 
+footer address:hover, footer a:hover {
+	color: orange;
+}
+footer address, footer a {
+	color: blue;
+}
 
-
-
-
-
-
-
-
-
-
+footer ul {
+	margin-bottom: 0;
+}
