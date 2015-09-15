@@ -17,6 +17,7 @@ body {
 	margin: 0;
 }
 
+
 nav {
 	width: 100%;
 	margin:0;
@@ -38,7 +39,6 @@ nav ol {
 nav li a {
 	text-align: center;
 	text-decoration: none;
-	background-color: #0d4c53;
 	margin: 0;
 	width: 100%;
 	padding: 0.5em 0;
@@ -55,15 +55,26 @@ p {
 h1 {
 	text-align: center;
 	font-size: 3rem;
-font-family: 'Open Sans', sans-serif;	background-color: #0d4c53;
+	font-family: 'Open Sans', sans-serif;	
 	margin: 0;
-	padding: 10px 0 3px 0;
+	padding: 0.5em 0 1em 0;
+	font-size: 2rem;
+	background-image:url("../images/logo.svg");
+	background-repeat: no-repeat;
+	background-size: 13%;
+    background-position: 0.5em 0.5em;
+
+
 }
+
+
+
+
 
 main h2 {
 	text-align: center;
 	margin: 1em 0 -0.5em 0;
-font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
@@ -262,3 +273,26 @@ footer address, footer a {
 footer ul {
 	margin-bottom: 0;
 }
+
+main a:hover, nav a:hover{
+	color:orange;
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
