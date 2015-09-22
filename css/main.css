@@ -150,13 +150,21 @@ dd {
 	margin:0;
 }
 
-.dd-li {
-	display: inline-block;
-	width: 31.33333%;
+.datalist {
+	position:relative;
+	overflow: hidden;
+	left: 2%;
+}
+.datalist dd {
 	float: left;
-	margin-left: 2%;
-	position: relative;
-	padding-bottom: 4em;
+	width: 33.33%;
+	padding-top: 1.5em;
+}
+
+.datalist dt {
+	width: 33.33%;
+	position:absolute;
+	top: 0;
 }
 
 .for-button {
@@ -167,11 +175,21 @@ dd {
 	background-color: grey;
 	text-align: center;
 	padding: 0.25em 1.5em;
+	display: block;
+	margin-left:25%;
 	width: 50%;
-	position: absolute;
-	left: 25%;
-	bottom: -6em;
 	}
+
+.datalist dt:nth-child(3){
+	left: 33.33%;
+}
+
+.datalist dt:nth-child(5) {
+	left: 66.66%;
+}
+
+
+
 
 .buy-div, .buy-div-2 {
 	position: relative;
@@ -183,7 +201,6 @@ dd {
 	padding: 0.5em 2em;
 	position: absolute;
 	left: 20%;
-	width: 27.5%;
 	top: 50px;
 }
 
@@ -193,7 +210,6 @@ dd {
 	padding: 0.5em 2em;
 	position: absolute;
 	left: 52.5%;
-	width: 27.5%;
 	top: 50px;
 }
 
@@ -211,8 +227,8 @@ dd {
 .nowplaying-fig {
 	text-align: center;
 	position: relative;
-	margin-top: 1em;
-	padding-top: 1em;
+	margin-top: 2em;
+	padding-top: 20em;
 }
 
 .sst-button {
@@ -237,19 +253,13 @@ dd {
 .nowplaying-fig h3 {
 	margin:0;
 	background-image: linear-gradient(to bottom, white, transparent);
-	margin-top: -0.89em;
+	margin-top: -18em;
 	padding: 1em 0 2em 0;
 	padding-bottom: 16em;
 }
 
 .nowplaying-fig p {
 	margin-top: -18.5em;
-    padding-bottom: 17em;
-}
-
-
-.thisweek-h2 {
-	margin-top: 12em;
 }
 
 .thisweek p {
@@ -302,23 +312,18 @@ main a, .buy {
 
 	main img {
 		float: left;
-		width: 40%;
+		width: 38%;
 		display: block;
+		margin-right: 2%;
 	}
 
 	.sevenwondersdiv h3 {
-		float: right;
-		width: 50%;
-		display: block;
-		margin: 0;
+		margin-left: 42%;
 	}
 
 	.sevenwondersdiv h2 {
 		margin-bottom: 1em;
-	}
 
-	.sevenwondersdiv dd, .sevenwondersdiv dt {
-		margin-left: 1em;
 	}
 
 	.dd-li {
@@ -328,9 +333,60 @@ main a, .buy {
 	.sevenwondersdiv a {
 		width: 25%;
 		padding: 1.5em 2.25em;
-		left: 70%;
-		bottom: 10em;
 		border-radius: 50px;
+		margin-left: 60%;
+		position: relative;
+		bottom: 7em;
+	}
+
+	.buytickets {
+		margin-left: 2%;
+		text-align: left;
+	}
+
+	.buy-div p {
+		width: 45%;
+		float: left;
+	}
+
+	.buy-div a {
+		left: 2%;
+		float: left;
+		margin-top: 1em;
+	}
+
+	.buy-div .tickets-button-k {
+		left: 20%;
+		float: left;
+	}
+
+	.bam {
+		position: absolute;
+		left: 43%;
+		margin-top: -1%;
+
+	}
+
+	.buy-div-2 {
+		display: inline;
+		position: relative;
+	}
+
+	.buy-div-2 a {
+
+		position: absolute;
+		top: -2px;
+		left: 29em;
+		width: 10em;
+	}
+
+	.buy-div-2 .tickets-button-k {
+		left: 41em;
+		padding: 0.5em 0 0.5em 2.5em;
+	}
+
+	.now-playing {
+		margin-top: 4em;
 	}
 }
 
