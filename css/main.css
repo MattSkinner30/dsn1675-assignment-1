@@ -425,8 +425,21 @@ main a, .buy {
 		width: 25%;
 	}
 
+	.nowplaying-fig {
+		padding-bottom: 39%;
+	}
+
+	.sst-button	{
+		margin-top: -15em;
+	}
+
 	.thisweek {
 		overflow: hidden;
+	}
+
+	.thisweek-h2 {
+		margin-top: -4em;
+
 	}
 
 	.now-playing {
@@ -495,6 +508,11 @@ main a, .buy {
 
 	.moa {
 		margin-top: -1em;
+	}
+
+	.now-playing {
+		padding-bottom: em;
+
 	}
 }
 
