@@ -527,6 +527,12 @@ main a, .buy {
 	}
 }
 
+@media print {
+	header nav {
+		display:none;
+	}
+}
+
 
 
 
