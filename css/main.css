@@ -439,7 +439,6 @@ main a, .buy {
 
 	.thisweek-h2 {
 		margin-top: -4em;
-
 	}
 
 	.now-playing {
@@ -513,6 +512,18 @@ main a, .buy {
 	.now-playing {
 		padding-bottom: em;
 
+	}
+
+	.moa {
+		float: left;
+	}
+
+	footer address {
+		float: left;
+	}
+
+	.info {
+		margin-top: -1.5em;
 	}
 }
 
