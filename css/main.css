@@ -306,9 +306,20 @@ main a, .buy {
 
 
 @media only screen and (min-width: 55em) {
+
+		html {
+		font-size: 110%;
+		line-height: 1.3;
+	}
+
+
 	nav li a {
 		font-size: 1rem;
 		padding: 0.25em;
+	}
+
+	.banner-div p {
+		margin-top: 2em;
 	}
 
 	main img {
@@ -328,14 +339,13 @@ main a, .buy {
 	}
 
 	.sevenwondersdiv a {
-		width: 25%;
-		padding: 1.5em 2.25em;
-		border-radius: 50px;
-		margin-left: 60%;
+		width: 40%;
+		padding: 0.5em 0;
+		margin-left: 50%;
 		position: relative;
 		bottom: 7em;
 	}
-
+/*		2 Column code
 	.buytickets {
 		margin-left: 2%;
 		text-align: left;
@@ -381,14 +391,46 @@ main a, .buy {
 		left: 42em;
 		padding: 0.5em 0 0.5em 2.5em;
 	}
+*/
+	.buy-div p {
+		text-align: center;
+	}
 
-	.now-playing {
-		margin-top: 4em;
+	.buy-div a {
+		width: 25%;
+		text-align: center;
+	}
+
+	.buy-div .tickets-button-k {
+		width: 25%;
+		text-align: center;
+	}
+
+	.bam {
+		text-align: center;
+		padding-top: 2em;
+	}
+
+	.buy-div-2 p{
+		text-align: center;
+	}
+
+	.buy-div-2 a {
+		text-align: center;
+		width: 25%;
+	}
+
+	.buy-div-2 .tickets-button-k {
+		text-align: center;
+		width: 25%;
 	}
 
 	.thisweek {
 		overflow: hidden;
-	
+	}
+
+	.now-playing {
+		padding-top: 2em;
 	}
 
 	.saturday, .tuesday, .thursday {
@@ -399,7 +441,7 @@ main a, .buy {
 	.monday, .wednesday, .friday{
 		float: right;
 		width: 50%;
-	}
+	}0
 
 	footer {
 		padding-bottom: 3em;
@@ -437,6 +479,24 @@ main a, .buy {
 }
 
 
+
+
+
+
+@media only screen and (min-width:69em) {
+	html {
+		font-size: 120%;
+		line-height: 1.5;
+	}
+
+	footer {
+		padding-bottom: 3em;
+	}
+
+	.moa {
+		margin-top: -1em;
+	}
+}
 
 
 
